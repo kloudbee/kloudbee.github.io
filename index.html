@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Kloudbee: Programación y Diseño Web</title>
+    <meta name="color-scheme" content="only">
+    <meta name="description" content="Creamos herramientas digitales de gran valor, basadas en altos estándares de programación y diseño. Con calidad y pasión siempre." />
+    <meta name="keywords" content="programacion, apps moviles, sitios web, tienda online, menu digital, diseño, diseno, logos, branding, sistemas, sistema, javascript, java, node, react, react native, sql, software, cloud, aws, html, css, boostrap, menu, qr">
+    <meta name="author" content="Kloudbee">
+    <meta name="robots" content="programacion, apps moviles, sitios web, tienda online, menu digital, diseño, diseno, logos, branding, sistemas, sistema, javascript, java, node, react, react native, sql, software, cloud, aws, html, css, boostrap, menu, qr"
+    />
+    <meta name="googlebot" content="programacion, apps moviles, sitios web, tienda online, menu digital, diseño, diseno, logos, branding, sistemas, sistema, javascript, java, node, react, react native, sql, software, cloud, aws, html, css, boostrap, menu, qr"
+    />
+
+    <meta property="og:image" content="/assets/img/icons/sharedlogo.jpg">
+    <link rel="apple-touch-icon" href="/assets/img/icons/sharedlogo.jpg">
+    <link href="/assets/img/icons/icon.png" rel="icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/css/litera.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174560993-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-174560993-1');
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '496952054795801');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=496952054795801&ev=PageView
+    &noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">
+                <img width="auto" height="30" src="assets/img/kloudbee5.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" class="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a id="tI1" class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                        <a id="tI2" class="nav-link" href="#usSection">Nosotros</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                        <a id="tI3" class="nav-link" href="#servicesSection">Servicios</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                        <a id="tI4" class="nav-link" href="#portfolioSection">Portafolio</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                        <a id="tI5" class="nav-link" href="#teamSection">Equipo</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                        <a id="tI6" class="nav-link" href="#contactSection">Contacto</a>
+                    </li>
+                </ul>
+                <div class="text-light d-flex engtoggle">
+                    <label class="switch-wrap mt-lg-2">
+                        <input type="checkbox" id="translate" />
+                        <div class="switch"></div>
+                    </label>
+                    <p class="nav-link">ENG</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="landing">
+        <div class="container-fluid pt-3 purple1 px-0">
+            <div class="container mt-5">
+                <div class="row align-items-center mt-5">
+                    <div class="col-12 col-md-6" data-aos="fade-right">
+                        <h1 id="tI7" class="text-light text-center text-md-left">Hacemos tus ideas realidad</h1>
+                        <h5 id="tI8" class="text-light text-center text-md-left font-weight-light pt-3 mr-3">Desde la mejor página web para impulsar tu negocio, hasta una impactante app para conectarte con tus clientes.
+
+                        </h5>
+                        <a class="d-flex justify-content-center justify-content-md-start" href="#portfolioSection"><button class="cool-btn">Ver portafolio</button></a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div id="lottie"></div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200" style="padding: 0 !important">
+                <path fill="#ffffff" fill-opacity="1"
+                    d="M0,192L120,165.3C240,139,480,85,720,85.3C960,85,1200,139,1320,165.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                </path>
+            </svg>
+
+        </div>
+    </section>
+
+    <section id="usSection" class="aboutSection">
+        <div class="container">
+            <h2 id="tI10" class="text-center mb-3 mb-md-0" data-aos="fade-up">acerca de</h2>
+
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-4 align-items-center" data-aos="fade-right">
+
+                    <h3 id="tI11" class="text-center text-md-left mb-0 mb-md-4">somos una agencia de desarrollo y diseño...
+                    </h3>
+                    <p id="tI12" class="text-center text-md-left">"Vamos, hay que crear el mañana, y no preocuparse por el ayer."
+                    </p>
+                </div>
+                <div class="col-12 col-md-8 align-items-center text-center" data-aos="fade-left">
+
+                    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="w-75" src="assets/img/working.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-75" src="assets/img/science.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-75" src="assets/img/flame-searching.png" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!-- <img class="img-fluid"  style="height: 400px; width: 400px;" src="./assets/img/flame-searching.png" alt=""> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="servicesSection" class="services pt-4 pt-md-10 servicesSection">
+        <div class="container p-5">
+            <div class="section-title">
+                <h2 id="tI13" class="text-center mb-3 mb-md-0" data-aos="fade-up">servicios</h2>
+                <h3 id="tI14" class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">diseñamos soluciones sencillas a problemas grandes.</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-code"></i></div>
+                        <h4 class="title">Software</h4>
+                        <p id="tI15" class="lead">Desarrollamos software a tu medida. Puntos de venta, plataformas y más. Todo para impulsar tu negocio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-laptop"></i></div>
+                        <h4 id="tI16" class="title">Páginas Web</h4>
+                        <p id="tI17" class="lead">Creamos sitios web que comunican el mensaje perfecto a tus clientes. Lo que quieras lograr, nosotros te apoyamos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h4 id="tI18" class="title">Apps Móviles</h4>
+                        <p id="tI19" class="lead">¿Buscas desarrollar una aplicación para Android y/o IOS? Nosotros tenemos la solución.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-shopping-basket"></i></div>
+                        <h4 id="tI20" class="title">Tiendas en Linea</h4>
+                        <p id="tI21" class="lead"> Digitalizamos tu negocio, desde un simple catálogo a una compleja tienda en linea. Si tu negocio no esta en linea, no existe.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-md-3 col-12 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-pen-fancy"></i></div>
+                        <h4 id="tI22" class="title">Diseño</h4>
+                        <p id="tI23" class="lead">Diseñamos logos, imágenes para tu negocio, ilustraciones y lo que puedas imaginar.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <h4 id="tI24" class="title">Cloud</h4>
+                        <p id="tI25" class="lead">Nuestra infraestructura en AWS nos permite ofrecerte soluciones en la nube para cualquier problema.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col126 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-utensils"></i></div>
+                        <h4 id="tI26" class="title">Menus QR</h4>
+                        <p id="tI27" class="lead">Ofrecemos los mejores menus digitales para tu restaurante <br> <br>
+                            <strong><a id="tI28" class="title" href="https://www.kloudbee.com/menu/" target="_blank">Ver
+                                    mas...</a></strong>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-4 pt-md-10 techSection">
+        <div class="container p-5">
+            <div>
+                <h2 id="tI29" class="text-center mb-3 mb-md-0" data-aos="fade-up">tecnologías</h2>
+                <h3 id="tI30" class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">actualizandonos constantemente para ofrecerte lo mejor del mercado.
+                    </p>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-html5 py-5 icon2"></i>
+                        <h5>HTML</h5>
+                        <p id="tI31" class="lead mt-2 mb-0">Creamos fantásticas páginas web a tu medida.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-js-square py-5 icon2"></i>
+                        <h5>Javascript</h5>
+                        <p id="tI32" class="lead mt-2 mb-0">Desplegamos aplicaciones con la mejor tecnología, web, escritorio o móvil.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-android py-5 icon2"></i>
+                        <h5>Android</h5>
+                        <p id="tI33" class="lead mt-2 mb-0">Desarrollamos aplicaciones para Android y si gustas, la subimos a la Play Store por ti.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-apple py-5 icon2"></i>
+                        <h5>IOS</h5>
+                        <p id="tI34" class="lead mt-2 mb-0">Desarrollamos aplicaciones para iOS y si gustas, la subimos a la App Store por ti.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-react py-5 icon2"></i>
+                        <h5>React</h5>
+                        <p id="tI35" class="lead mt-2 mb-0">La tecnología detrás de Facebook e Instagram. Podemos realizar tu aplicación con React.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-stripe py-5 icon2"></i>
+                        <h5 id="tI36" class="">Pagos</h5>
+                        <p id="tI37" class="lead mt-2 mb-0">Integramos procesadores de pagos a tus aplicaciones.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-aws py-5 icon2"></i>
+                        <h5>AWS</h5>
+                        <p id="tI38" class="lead mt-2 mb-0">Contamos con infraestructura en Amazon Web Services lista para ofrecer soluciones en tu negocio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-docker py-5 icon2"></i>
+                        <h5>Docker</h5>
+                        <p id="tI39" class="lead mt-2 mb-0">Posiblidad de lanzar contenedores en segundos.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-node-js py-5 icon2"></i>
+                        <h5>Node.js</h5>
+                        <p id="tI40" class="lead mt-2 mb-0">Conectamos lo visible con lo invisible.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fas fa-sitemap py-5 icon2"></i>
+                        <h5 id="tI41" class="">Bases de datos</h5>
+                        <p id="tI42" class="lead mt-2 mb-0">Relacionales y no relacionales, elegimos lo mejor para ofrecerte una solución completa.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fab fa-bootstrap py-5 icon2"></i>
+                        <h5>Bootstrap</h5>
+                        <p id="tI43" class="lead mt-2 mb-0">Creamos páginas web de calidad, con pasión y con ayuda de Bootstrap.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="mb-4 text-center text-md-left">
+                        <i class="fas fa-mug-hot py-5 icon2"></i>
+                        <h5 id="tI44" class="">Café</h5>
+                        <p id="tI45" class="lead mt-2 mb-0">Preparamos el mejor café, ¿te invitamos uno?</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolioSection" class="portfolio pt-4 pt-md-10 portfolioSection">
+        <div class="container p-5">
+
+            <div>
+                <h2 id="tI46" class="text-center" data-aos="fade-up">portafolio</h2>
+                <h3 id="tI47" class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">Echa un vistazo a nuestros trabajos</p>
+            </div>
+
+            <div class="row portfolio-container">
+
+                <div class="col-6 col-md-4 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-links">
+
+                        </div>
+                        <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+                        <div id="imgClick" class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/3</p>
+                            <p id="tI58" hidden>Futbolandia Tienda en Linea</p>
+                            <p id="tI59" hidden>Elaboramos la tienda el linea de Futbolandia. Un negocio basado en la ciudad de Durango dedicado a vender Jerseys de portivos y articulos de fútbol de gran calidad.
+                            </p>
+                            <p id="tI60" hidden>"Con esta tienda en línea pude posicionar a Futbolandia en un nuevo mercado en estos tiempos tan difíciles." </p>
+                            <p id="tI61" hidden>Carlos Magallanes, Dueño de Futbolandia</p>
+                            <h4 id="tI62">Futbolandia Tienda en Línea</h4>
+                            <div class="portfolio-links">
+                                <a href="#" title="App 1"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-links">
+
+                        </div>
+                        <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">
+                        <div id="imgClick" class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/4</p>
+                            <p id="tI67" hidden>Página Web Zumma</p>
+                            <p id="tI68" hidden>Creamos la página principal de Zumma Contabilidad, un despacho de contadores de Durango con la función de subir sus FB lives y verlos online.</p>
+                            <p id="tI69" hidden>"Me encantó el diseño de la nueva página de Zumma, ahora tenemos gran presencia en redes sociales." </p>
+                            <p id="tI70" hidden>Pedro Salinas, Co-fundador de Zumma Contabilidad</p>
+                            <h4 id="tI71">Pagina Web Zumma</h4>
+                            <div class="portfolio-links">
+                                <a href="#" title="App 1"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-links">
+
+                        </div>
+                        <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">
+                        <div id="imgClick" class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/5</p>
+                            <p id="tI112" hidden>Página Web Maximizate</p>
+                            <p id="tI113" hidden>Creamos la página Web de Maximizate, una agencia con base en Canadá dedicada al crecimiento educativo y personal de las personas.</p>
+                            <p id="tI114" hidden>"Con esta página web ahora podemos ofrecer nuestro servicios a muchas más personas." </p>
+                            <p id="tI115" hidden>Keyla Gamboa, Co-fundadora de Maximizate</p>
+                            <h4 id="tI116">Página Web Maximizate</h4>
+                            <div class="portfolio-links">
+                                <a href="#" title="App 1"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-links">
+
+                        </div>
+                        <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
+                        <div id="imgClick" class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/1</p>
+                            <p id="tI48" hidden>Logo Mojitólogo</p>
+                            <p id="tI49" hidden>Elaboramos el diseño de marca de Mojitólogo Cocktails, con un look fresco se logró capturar la esencia que el dueño quería transmitir a sus clientes.</p>
+                            <p id="tI50" hidden>"Me encantó el trabajo de Kloudbee, en verdad de los mejores en el tema. " </p>
+                            <p id="tI51" hidden>Ricardo Ruiz, Dueño de Mojitólogo Cocktails</p>
+                            <h4 id="tI52">Logo Mojitólogo</h4>
+                            <div class="portfolio-links">
+                                <a href="#" title="App 1"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+
+                        <img id="" src="assets/img/portfolio/2.jpg" class="img-fluid imgClic" alt="">
+
+
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/2</p>
+                            <p id="tI53" hidden>App de intercambios</p>
+                            <p id="tI54" hidden>Realizamos el diseño de una app de intercambios entre la comunidad. Pensada para ofrecer productos o efectivo a cambio del articulo publicado.</p>
+                            <p id="tI55" hidden>"Me gustó su diseño."</p>
+                            <p id="tI56" hidden>Guillermo García, Cliente de Kloudbee</p>
+                            <h4 id="tI57">App de intercambios</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="Web 3"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/6.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/6</p>
+                            <p id="tI72" hidden>iChamba</p>
+                            <p id="tI73" hidden>Estamos desarrollando iChamba para cambiar la manera de contratar trabajadores informales en México</p>
+                            <p id="tI74" hidden>Espérala</p>
+                            <p id="tI75" hidden>Equipo de Kloudbee</p>
+                            <h4>iChamba</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="App 3"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/7.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/7</p>
+                            <p id="tI76" hidden>Web Skyfall</p>
+                            <p id="tI77" hidden>Desarrollamos la página web de Skyfall, una tienda de joyería en linea.
+                            </p>
+                            <p id="tI78" hidden>"Con esta página web, me adapté a la nueva normalidad y estoy más cerca que nunca con mis clientes."</p>
+                            <p id="tI79" hidden>Kimberly Rivas, Dueña de Skyfall</p>
+                            <h4 id="tI80">Web Skyfall</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="Card 1"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/8.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/8</p>
+                            <p id="tI81" hidden>Logo Carnicería el Novillo</p>
+                            <p id="tI82" hidden>Diseñamos el logo para la carniceria el novillo.</p>
+                            <p id="tI83" hidden>"Me entregaron en tiempo y forma el trabajo que pedí, súper recomendados."
+                            </p>
+                            <p id="tI84" hidden>Manuel Saracho, Dueño de Carniceria el Novillo</p>
+                            <h4 id="tI85">Logo Carnicería el Novillo</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="Card 3"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/9.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/9</p>
+                            <p id="tI86" hidden>App Visit Durango</p>
+                            <p id="tI87" hidden>Elaboramos la propuesta de una app turistica para el estado de Durango.
+                            </p>
+                            <p id="tI88" hidden>"Buen diseño y usabilidad, mucho mejor que la que existe actualmente."
+                            </p>
+                            <p hidden>Ing. Obed Cano</p>
+                            <h4 id="tI89">App Visit Durango</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="Web 3"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/10.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/10</p>
+                            <p id="tI90" hidden>App Cheems</p>
+                            <p id="tI91" hidden>Cheems, el simpático perro del internet llega a tu dispositivo! El necesita ropa y accesorios para lucir a la moda. Selecciónalos en la aplicación y dale el mejor look. Ademas, ahora puedes añadir un texto divertido!</p>
+                            <p id="tI92" hidden>"Gran aplicación, entretenimiento y diseño al 100%"</p>
+                            <p id="tI93" hidden>Andrés Floriano, Usuario de Playstore</p>
+                            <h4 id="tI94">App Cheems</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="Web 3"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/11.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/11</p>
+                            <p id="tI95" hidden>Página Web Sr. Cubo</p>
+                            <p id="tI96" hidden>Elaboramos la página web de Sr. Cubo, tienda Duranguense y en linea de cubos Rubik y todo tipo de puzzles al mejor precio!</p>
+                            <p id="tI97" hidden>"Super buen servicio de parte de las personas! Aparte están innovando muchísimo en todo lo que venden, Super buena tienda !"</p>
+                            <p id="tI98" hidden>Agustín C. Cliente de Sr. Cubo</p>
+                            <h4 id="tI99">Página Web Sr. Cubo</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="Web 3"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/12.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info imgClick">
+                            <p hidden>assets/img/portfolio/12</p>
+                            <p hidden>Kb shift</p>
+                            <p id="tI100" hidden>Elaboramos el diseño de marca y renders de los productos de teclados mecánicos
+                            </p>
+                            <p id="tI101" hidden>"Buenos renders, parecen reales"</p>
+                            <p id="tI102" hidden>Cliente de Kbshift</p>
+                            <h4>Kb shift</h4>
+                            <div class="portfolio-links">
+                                <a href="#" class="" title="Web 3"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="teamSection" class="team section-bg pt-4 pt-md-10 teamSection">
+        <div class="container p-1">
+
+            <h2 id="tI103" class="text-center" data-aos="fade-up">equipo de trabajo</h2>
+            <h3 id="tI113" class="text-center" data-aos="fade-up" data-aos-delay="100">conocenos</h3>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-6 col-md-3">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="assets/img/team/roque.png" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.instagram.com/roquebajosexto/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <p class="small">"La vida es una canción"</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Roque Alvarez</h4>
+                            <span id="tI105">Programador Backend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 d-flex">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="assets/img/team/sergio.png" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.instagram.com/sergio.d.diez/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <p class="small">"Tengo fe en mis ideales"</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Sergio Diez <small>: .</small></h4>
+                            <span id="tI106">Programador Frontend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 d-flex">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="assets/img/team/ricardo.png" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.instagram.com/hg.ricardo/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <p class="small">"Si lo puedes pensar,<br> lo puedes crear"</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Ricardo Hernández</h4>
+                            <span id="tI107">Programador Frontend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-3 d-flex">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="assets/img/team/juan.jpg" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.instagram.com/juansarachof/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <p class="small">"Mantenlo simple"</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Juan Saracho</h4>
+                            <span id="tI108">Diseñador UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 d-flex">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="assets/img/team/luis.png" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="https://www.instagram.com/luis._.sd/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <p class="small">"Deja que el mundo te sorprenda"</p>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Luis Soto</h4>
+                            <span id="tI109">Programador Backend</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contactSection" class="contact purple">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+            <path fill="#F7FBFE" fill-opacity="1"
+                d="M0,64L120,96C240,128,480,192,720,192C960,192,1200,128,1320,96L1440,64L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container p-5">
+            <h2 id="tI110" class="text-center text-light mb-5" data-aos="fade-up">contáctanos</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6" data-aos="fade-right">
+                    <div class="contact-about">
+                        <h3 class="text-light">kloudbee</h3>
+                        <p id="tI111" class="lead text-light">Copyright © 2020. Todos los derechos reservados.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/kloudbee/" target="_blank" class="facebook"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/kloudbee.mx/" target="_blank" class="instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=526182993654&text=Hola%20buen%20d%C3%ADa,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20de..." target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="mailto:hola@kloudbee.com?subject=%C2%A1Hola!%20Me%20gustar%C3%ADa%20platicarles%20de%20mi%20idea" target="_blank" class="email"><i class="far fa-envelope-open"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-left">
+                    <div class="info">
+                        <p class="lead text-light">México<br>Durango, Dgo 34000</p>
+
+                        <p class="lead text-light">+52 618 299 3654</p>
+
+                        <p>
+                            <a class="lead mail" href="mailto:hola@kloudbee.com?subject=%C2%A1Hola!%20Me%20gustar%C3%ADa%20platicarles%20de%20mi%20idea">
+                                hola@kloudbee.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="modalService" tabindex="-1" role="dialog" aria-labelledby="title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold" id="title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- <img id="foto" class="img-fluid" src="" alt="" style="height: 20vw; width: 30vw;"> -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div id="carouselExampleControls" class="carousel slide mb-3" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img id="car1" src="" class="d-block w-100 rounded" alt="...">
+                                        </div>
+                                        <div class="carousel-item secondItem">
+                                            <img id="car2" src="" class="d-block w-100 rounded" alt="...">
+                                        </div>
+                                        <div class="carousel-item secondItem">
+                                            <img id="car3" src="" class="d-block w-100 rounded" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 align-items-center">
+                                <p id="description" class="text-justify lead" style="font-size: 20px !important;">
+                                </p>
+                                <blockquote class="blockquote text-start">
+                                    <p id="clientComment" class="lead font-weight-bold mb-2"></p>
+                                    <footer id="clientName" class="blockquote-footer"></footer>
+                                </blockquote>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary border-0" style="background-color: #5F3ABD; border: none;" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top purple1" role="button"><i
+            class="fas fa-chevron-up"></i></a>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

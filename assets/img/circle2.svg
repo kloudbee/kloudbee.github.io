@@ -1,0 +1,4 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <ellipse stroke="#5900ff" stroke-opacity=".1" rx="190" ry="190" cx="500" cy="250"  fill-opacity="0" stroke-width="60"/>
+  <ellipse stroke="#5900ff" stroke-opacity=".1" rx="90" ry="90" cx="500" cy="250"  fill-opacity="0" stroke-width="50"/>
+</svg> 
